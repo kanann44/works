@@ -1,0 +1,102 @@
+body {
+  font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Meiryo", "verdana", sans-serif;
+  font-size: 60px;
+}
+
+h1 {
+
+  margin: 10px;
+  padding-left: 60px;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.father {
+  width: 40%;
+}
+
+.mother {
+  width: 40%;
+}
+
+h2 {
+  margin: 5px;
+}
+
+.ul {
+  border: 6px solid black;
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 20px 10px;
+  list-style: none;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+li {
+  white-space:nowrap;
+  padding:  30px 20px 20px 10px;
+}
+
+h3 {
+  margin: 40px 10px;
+  text-align: right;
+}
+
+.fadein {
+  opacity: 0;
+  animation: fadein 6s ease forwards;
+}
+
+@keyframes fadein {
+    100% {  opacity: 1;}
+}
+
+.li01 {animation-delay: 1s;}
+.li02 {animation-delay: 2s;}
+.li03 {animation-delay: 3s;}
+.li04 {animation-delay: 4s;}
+.li05 {animation-delay: 5s;}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  left:0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+background-size: 1800% 1800%;
+
+-webkit-animation: rainbow 18s ease infinite;
+-z-animation: rainbow 18s ease infinite;
+-o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
